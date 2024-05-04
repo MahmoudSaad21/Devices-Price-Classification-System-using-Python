@@ -20,8 +20,6 @@ To set up the project:
 The Python project consists of the following key components:
 
 - `train.py`: Handles data preparation and model training.
-- `predict.py`: Makes predictions based on device specifications.
-
 ## Endpoints
 
 The Python project includes a RESTful API implemented using Flask for serving predictions. The primary endpoint is `/predict_price`, which accepts POST requests with device specifications and returns the predicted price range.
